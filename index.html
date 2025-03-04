@@ -25,6 +25,20 @@
             color: #fff;
             padding: 20px 0;
             text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        .profile-photo img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header-text {
+            flex-grow: 1;
+            text-align: center;
         }
         h1 {
             margin: 0;
@@ -34,20 +48,6 @@
             flex: 1;
             padding: 50px 0;
             text-align: center;
-        }
-        .main-content h2 {
-            font-size: 2em;
-            margin-bottom: 20px;
-        }
-        .profile-photo {
-            text-align: center;
-            margin: 20px 0;
-        }
-        .profile-photo img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         .projects {
             padding: 50px 0;
@@ -93,7 +93,10 @@
 </head>
 <body>
     <header>
-        <div class="container">
+        <div class="profile-photo">
+            <img src="aime.jpeg" alt="Michael Kisilevich">
+        </div>
+        <div class="header-text">
             <h1>Michael Kisilevich</h1>
             <p>Sales Professional | Tech Enthusiast | Smart Home Specialist</p>
         </div>
@@ -101,9 +104,6 @@
 
     <section class="main-content container">
         <h2>Welcome to My Professional Portfolio</h2>
-        <div class="profile-photo">
-            <img src="aime.jpeg" alt="Michael Kisilevich">
-        </div>
         <p>I specialize in sales, technology, and smart home solutions. With a strong background in customer engagement and emerging tech, I bring innovation and strategy to every project.</p>
         <a href="#contact" class="btn">Get in Touch</a>
     </section>
@@ -112,9 +112,9 @@
         <h2>My Work</h2>
         <p>Here are some of the websites I have built in the past:</p>
         <div class="project-gallery">
-            <img src="example1.jpg" alt="Project 1">
-            <img src="example2.jpg" alt="Project 2">
-            <img src="example3.jpg" alt="Project 3">
+            <img src="optic.jpeg" alt="Project 1">
+            <img src="ssu.jpeg" alt="Project 2">
+            <img src="eyewear.jpeg" alt="Project 3">
         </div>
     </section>
 
